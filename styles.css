@@ -1,0 +1,125 @@
+@media screen and (min-width: 1200px) {
+    body {
+      width: 80%;
+      max-width: 1200px;
+      border: 5px solid palevioletred;
+      border-radius: 5%;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .accordion {
+      width: 80%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }  
+
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: small;
+}
+
+a{
+    width: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 50%;
+}
+
+.banner {
+    display: flex;
+}
+
+.image1 {
+    width: 100%;
+    position: sticky;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.carousel-inner {
+    border-radius: 5%;
+    border: 5px solid palevioletred;
+}
+
+.centerimage {
+    width: 80%;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    bottom: 9%;
+    left: 10%;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 4.7vw;
+    -webkit-text-stroke: 0.7px black;
+}
+
+.icon{
+    -webkit-text-stroke: 0.5px black;
+}
+
+.location {
+    position: absolute;
+    bottom: 5.5%;
+    left: 10%;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 3vw;
+    -webkit-text-stroke: 0.7px black;
+}
+
+.buttonscontainer {
+    display: flex;
+    justify-content:center;
+}
+
+.but {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.accordion {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.accordion-button {
+    background-color:rgb(208,226,255);
+    margin: 0.05%;
+}
+
+.last {
+    display: flex;
+    column-gap: 20px;
+}
+
+#sites{
+    font-size: x-small;
+}
+
+.interest {
+    width: fit-content;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 0.5%;
+}
+
+.footerbar {
+    width: 100%;
+}
